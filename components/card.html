@@ -1,0 +1,81 @@
+<!-- Perhitungan lebar kartu -->
+<!-- Lebar tepat 320px, padding 20px. Jadi Padding x2 = 40px. + border 2px(x2 karena border di kedua sisi)
+ 320 + 40 + 4 = 364px -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+
+* {box-sizing: border-box;}
+body {
+    margin: 0;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+.card {
+    width: 320px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+.card img {
+    width: 100%;
+    height: 160px;
+    display: block;
+}
+.card h3{
+color: navy;
+margin-bottom: 8px;
+}
+.card p {
+    font-size: 15px;
+    color: #555;
+}
+.card a {
+    font-size: 15px;
+    color: #919191;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <img src="/assets/images/card-components.png" alt="Card Image">
+            <h3>
+                Website Project Toko Online
+            </h3>
+            <p>
+
+            </p>
+            <a href="#">Lihat Proyek </a>
+        </div>
+        <footer>
+            <a href="index.html">Kembali Ke Beranda</a>
+        </footer>
+            
+    </main>
+
+
+</body>
+</html>
