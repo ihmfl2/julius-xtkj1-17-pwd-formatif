@@ -1,0 +1,56 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+#about{
+    background-image: url('../assets/images/daun.jpg');
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.about-box {
+    width: 620px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+
+.about-box h2{
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+.about-box p{
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about-box .closing{
+    text-align: right;
+    font-size: 18px;
+    font-weight: italic;
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
