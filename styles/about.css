@@ -3,7 +3,7 @@ body{
 }
 
 #about{
-    background-image: url('../assets/images/daun.jpg');
+    background-image: url('../assets/images/leaf.jpg');
     min-height: 60vh;
     display: flex;
     justify-content: center;
@@ -46,9 +46,7 @@ footer {
     margin-top: 20px;
 }
 
-body {
-    background-image: url('../assets/images/leaf.jpg');
-}
+
 
 
 
